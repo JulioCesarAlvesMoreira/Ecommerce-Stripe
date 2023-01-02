@@ -2,19 +2,22 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from 'react-router-dom';
+import Home from './pages/Home/Home';
+import Product from './pages/Product/Product';
+import Products from './pages/Products/Products';
 
 const router = createBrowserRouter([
   {
   path:"/",
-  element:<span>Home</span>
+  element:<Home/>
   },
   {
-    path:"/products:id",
-    element:<span>Category</span>
+    path:"/products/:id",
+    element:<Products/>
     },
     {
-      path:"/product:id",
-      element:<span>Produto</span>
+      path:"/product/:id",
+      element:<Product/>
     },
     ])
 
