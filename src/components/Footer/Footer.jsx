@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import './Footer.scss';
 
 const Footer = () => {
   return (
@@ -46,7 +47,7 @@ const Footer = () => {
       <div className="bottom">
         <div className="left">
           <span className='logo'>JulioStore</span>
-          <span className='copyright'>@copyright Todos os direitos reservados</span>
+          <span className='copyright'>Direitos reservados</span>
         </div>
         <div className="right">
           <img src='/img/payment.png' alt=''></img>
